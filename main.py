@@ -2,7 +2,7 @@ from selenium import webdriver
 from datetime import date, datetime
 import sqlite3
 
-URL = "https://intranet.inkua.de/dashboard"
+URL = "google.com"
 
 driver = webdriver.Chrome()
 driver.get(URL)
